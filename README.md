@@ -3,7 +3,7 @@
 **Smart Environmental Monitoring with AI-Powered Insights**
 
 ### Demo Video
-![Envai Demo](./assets/envai-demo.mp4)
+https://drive.google.com/file/d/1J9UzyQZ9SEzI4HrHhPmOkNmQHcHSxBLC/view?usp=sharing
 
 ### Project setup
 
