@@ -3,7 +3,7 @@
 **Smart Environmental Monitoring with AI-Powered Insights**
 
 ### Demo Video
-![Envai Demo](./assets/envai-demo.mov)
+![Envai Demo](./assets/envai-demo.mp4)
 
 ### Project setup
 
@@ -26,7 +26,7 @@ npm i && npm run dev
 - Brainstorming of ideas:
    - Come up with an idea for what kind of IoT device to use
 - Mock data generation for the IoT temperature collector device
-- Automating setup of boilerplate. 
+- Automating setup of boilerplate.
 
 - Use LLM to create a chat assistant for the app which would help users get
   insights on various charts and analytics elements shown in the Dashboard.
