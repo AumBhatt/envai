@@ -1,0 +1,22 @@
+/* AIAssistant Component Styles - Main Container Only */
+
+/* Main Container */
+.ai-assistant-container {
+  display: flex;
+  height: 100vh;
+}
+
+.ai-assistant-main-content {
+  flex: 1;
+  transition: margin-right 0.3s ease;
+}
+
+.ai-assistant-main-content.panel-open {
+  margin-right: 400px;
+}
+
+@media (max-width: 768px) {
+  .ai-assistant-main-content.panel-open {
+    margin-right: 0;
+  }
+}

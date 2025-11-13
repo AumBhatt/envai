@@ -1,0 +1,37 @@
+/* DonutChart Component Styles - 3 Color Theme */
+
+.donut-chart-container {
+  height: 300px;
+}
+
+.donut-chart-loading {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.donut-chart-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.donut-chart-icon {
+  font-size: 20px;
+  color: var(--text-and-elements);
+}
+
+/* Chart specific color overrides */
+.donut-chart .ant-card {
+  background: var(--containers-and-accents) !important;
+  border: 1px solid var(--containers-and-accents) !important;
+}
+
+.donut-chart .ant-card-head-title {
+  color: var(--text-and-elements) !important;
+}
+
+.donut-chart .ant-card-body {
+  color: var(--text-and-elements) !important;
+}

@@ -1,0 +1,27 @@
+/* Message List */
+.ai-assistant-messages {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ai-assistant-loading {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.ai-assistant-loading-content {
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: var(--app-background);
+  border: 1px solid var(--text-and-elements);
+  display: flex;
+  align-items: center;
+  color: var(--text-and-elements);
+}
+
+.ai-assistant-loading-text {
+  margin-left: 8px;
+  font-size: 14px;
+  color: var(--text-and-elements);
+}

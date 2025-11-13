@@ -1,0 +1,95 @@
+/* SystemHealth Component Styles - 3 Color Theme */
+
+.system-health-container {
+  height: 100%;
+}
+
+.system-health-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.system-health-icon {
+  font-size: 20px;
+  color: var(--text-and-elements);
+}
+
+.system-health-content {
+  color: var(--text-and-elements);
+}
+
+.system-health-status {
+  margin-bottom: 16px;
+}
+
+.system-health-components {
+  margin-bottom: 16px;
+}
+
+.system-health-components h4 {
+  color: var(--text-and-elements);
+  margin-bottom: 12px;
+}
+
+.component-status-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  background: var(--app-background);
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.component-name {
+  text-transform: capitalize;
+  color: var(--text-and-elements);
+}
+
+.component-status {
+  font-weight: bold;
+  color: var(--text-and-elements);
+}
+
+.system-health-recommendations h4 {
+  color: var(--text-and-elements);
+  margin-bottom: 12px;
+}
+
+.system-health-loading {
+  text-align: center;
+  padding: 40px;
+}
+
+/* Chart specific color overrides */
+.system-health .ant-card {
+  background: var(--containers-and-accents) !important;
+  border: 1px solid var(--containers-and-accents) !important;
+}
+
+.system-health .ant-card-head-title {
+  color: var(--text-and-elements) !important;
+}
+
+.system-health .ant-card-body {
+  color: var(--text-and-elements) !important;
+}
+
+.system-health .ant-statistic-title {
+  color: var(--text-and-elements) !important;
+}
+
+.system-health .ant-statistic-content {
+  color: var(--text-and-elements) !important;
+}
+
+.system-health .ant-alert {
+  background: var(--app-background) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  color: var(--text-and-elements) !important;
+}
+
+.system-health .ant-alert-message {
+  color: var(--text-and-elements) !important;
+}

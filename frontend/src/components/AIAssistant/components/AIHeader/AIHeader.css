@@ -1,0 +1,50 @@
+/* Panel Header */
+.ai-assistant-header {
+  padding: 16px;
+  border-bottom: 1px solid var(--text-and-elements);
+  background: var(--app-background);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ai-assistant-header-content {
+  display: flex;
+  align-items: center;
+}
+
+.ai-assistant-header-icon {
+  font-size: 18px;
+  color: var(--text-and-elements);
+  margin-right: 8px;
+}
+
+.ai-assistant-header-title {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--text-and-elements);
+}
+
+.ai-assistant-close-btn {
+  color: var(--text-and-elements) !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+.ai-assistant-close-btn:hover {
+  color: var(--text-and-elements) !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Time Range Indicator */
+.ai-assistant-time-range {
+  padding: 8px 16px;
+  background: var(--app-background);
+  border-bottom: 1px solid var(--text-and-elements);
+  font-size: 12px;
+  color: var(--text-and-elements);
+}
+
+.ai-assistant-time-range strong {
+  color: var(--text-and-elements);
+}

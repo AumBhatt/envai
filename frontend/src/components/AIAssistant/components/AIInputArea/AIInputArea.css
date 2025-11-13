@@ -1,0 +1,45 @@
+/* Input Area */
+.ai-assistant-input-area {
+  padding: 16px;
+  border-top: 1px solid var(--text-and-elements);
+  background: var(--app-background);
+}
+
+.ai-assistant-input-wrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.ai-assistant-input-wrapper .ant-input {
+  flex: 1;
+  background: var(--app-background) !important;
+  border: 1px solid var(--text-and-elements) !important;
+  color: var(--text-and-elements) !important;
+}
+
+.ai-assistant-input-wrapper .ant-input:focus {
+  border-color: var(--text-and-elements) !important;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2) !important;
+}
+
+.ai-assistant-input-wrapper .ant-input::placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.ai-assistant-send-btn {
+  background: var(--app-background) !important;
+  border: 1px solid var(--text-and-elements) !important;
+  color: var(--text-and-elements) !important;
+}
+
+.ai-assistant-send-btn:hover {
+  background: var(--containers-and-accents) !important;
+  border-color: var(--text-and-elements) !important;
+  color: var(--text-and-elements) !important;
+}
+
+.ai-assistant-send-btn:disabled {
+  background: rgba(255, 255, 255, 0.3) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+  color: rgba(0, 0, 0, 0.3) !important;
+}

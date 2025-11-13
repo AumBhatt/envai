@@ -1,0 +1,52 @@
+/* Welcome Screen */
+.ai-assistant-welcome {
+  text-align: center;
+  padding: 32px 16px;
+  color: var(--text-and-elements);
+}
+
+.ai-assistant-welcome-icon {
+  font-size: 48px;
+  color: var(--text-and-elements);
+  margin-bottom: 16px;
+}
+
+.ai-assistant-welcome-title {
+  color: var(--text-and-elements) !important;
+  margin-bottom: 8px !important;
+}
+
+.ai-assistant-welcome-text {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-and-elements);
+}
+
+.ai-assistant-quick-questions {
+  margin-top: 24px;
+  text-align: left;
+}
+
+.ai-assistant-quick-questions h4 {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: var(--text-and-elements) !important;
+}
+
+.ai-assistant-quick-question-btn {
+  display: block !important;
+  width: 100% !important;
+  text-align: left !important;
+  margin-bottom: 4px !important;
+  padding: 4px 8px !important;
+  height: auto !important;
+  font-size: 12px !important;
+  color: var(--text-and-elements) !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+.ai-assistant-quick-question-btn:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: var(--text-and-elements) !important;
+}

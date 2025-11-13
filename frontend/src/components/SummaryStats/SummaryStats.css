@@ -1,0 +1,35 @@
+/* SummaryStats Component Styles - 3 Color Theme */
+
+.summary-stats-container {
+  margin-top: 24px;
+}
+
+.summary-stats-header {
+  color: var(--text-and-elements);
+}
+
+.summary-stats-content {
+  color: var(--text-and-elements);
+}
+
+/* Chart specific color overrides */
+.summary-stats .ant-card {
+  background: var(--containers-and-accents) !important;
+  border: 1px solid var(--containers-and-accents) !important;
+}
+
+.summary-stats .ant-card-head-title {
+  color: var(--text-and-elements) !important;
+}
+
+.summary-stats .ant-card-body {
+  color: var(--text-and-elements) !important;
+}
+
+.summary-stats .ant-statistic-title {
+  color: var(--text-and-elements) !important;
+}
+
+.summary-stats .ant-statistic-content {
+  color: var(--text-and-elements) !important;
+}

@@ -1,0 +1,23 @@
+/* AI Panel */
+.ai-assistant-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 100vh;
+  background: var(--app-background);
+  border-left: 1px solid var(--text-and-elements);
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .ai-assistant-panel {
+    width: 100%;
+    left: 0;
+    border-left: none;
+    border-top: 1px solid var(--text-and-elements);
+  }
+}

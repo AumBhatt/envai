@@ -1,0 +1,9 @@
+/* Conversation Area */
+.ai-assistant-conversation {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  background: var(--app-background);
+}

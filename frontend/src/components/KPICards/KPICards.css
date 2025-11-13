@@ -1,0 +1,33 @@
+/* KPICards Component Styles - 3 Color Theme */
+
+.kpi-cards-container {
+  margin-bottom: 24px;
+}
+
+.kpi-card {
+  background: var(--containers-and-accents) !important;
+  border: 1px solid var(--containers-and-accents) !important;
+}
+
+.kpi-card .ant-card-body {
+  color: var(--text-and-elements) !important;
+}
+
+.kpi-card .ant-statistic-title {
+  color: var(--text-and-elements) !important;
+}
+
+.kpi-card .ant-statistic-content {
+  color: var(--text-and-elements) !important;
+}
+
+.kpi-icon {
+  font-size: 20px;
+  color: var(--text-and-elements);
+}
+
+.kpi-subtitle {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 8px;
+}

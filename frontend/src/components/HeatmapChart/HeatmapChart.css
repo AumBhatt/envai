@@ -1,0 +1,37 @@
+/* HeatmapChart Component Styles - 3 Color Theme */
+
+.heatmap-chart-container {
+  height: 300px;
+}
+
+.heatmap-chart-loading {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heatmap-chart-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.heatmap-chart-icon {
+  font-size: 20px;
+  color: var(--text-and-elements);
+}
+
+/* Chart specific color overrides */
+.heatmap-chart .ant-card {
+  background: var(--containers-and-accents) !important;
+  border: 1px solid var(--containers-and-accents) !important;
+}
+
+.heatmap-chart .ant-card-head-title {
+  color: var(--text-and-elements) !important;
+}
+
+.heatmap-chart .ant-card-body {
+  color: var(--text-and-elements) !important;
+}

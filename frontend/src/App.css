@@ -1,0 +1,228 @@
+/* Simple 3-Color Theme */
+:root {
+  /* Only 3 Colors */
+  --app-background: #010203;
+  --text-and-elements: #fff;
+  --containers-and-accents: #636363;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--app-background);
+  color: var(--text-and-elements);
+  overflow-x: hidden;
+}
+
+#root {
+  height: 100%;
+  background: var(--app-background);
+}
+
+/* Global App Container */
+.app {
+  min-height: 100vh;
+  width: 100%;
+  background: var(--app-background);
+  color: var(--text-and-elements);
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--containers-and-accents);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-and-elements);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-and-elements);
+  opacity: 0.8;
+}
+
+/* Selection Styling */
+::selection {
+  background: var(--containers-and-accents);
+  color: var(--text-and-elements);
+}
+
+/* Focus Outline */
+*:focus {
+  outline: 2px solid var(--text-and-elements);
+  outline-offset: 2px;
+}
+
+/* Ant Design Overrides */
+.ant-layout {
+  background: var(--app-background) !important;
+}
+
+.ant-layout-content {
+  background: var(--app-background) !important;
+}
+
+.ant-card {
+  background: var(--containers-and-accents) !important;
+  border: 1px solid var(--containers-and-accents) !important;
+  border-radius: 8px !important;
+}
+
+.ant-card-head {
+  background: var(--containers-and-accents) !important;
+  border-bottom: 1px solid var(--text-and-elements) !important;
+  color: var(--text-and-elements) !important;
+}
+
+.ant-card-head-title {
+  color: var(--text-and-elements) !important;
+  font-weight: 600 !important;
+}
+
+.ant-card-body {
+  color: var(--text-and-elements) !important;
+}
+
+/* Button Overrides */
+.ant-btn {
+  border-radius: 6px !important;
+  font-weight: 500 !important;
+  transition: all 0.2s ease !important;
+}
+
+.ant-btn-primary {
+  background: var(--text-and-elements) !important;
+  border: 1px solid var(--text-and-elements) !important;
+  color: var(--app-background) !important;
+}
+
+.ant-btn-primary:hover {
+  background: var(--containers-and-accents) !important;
+  border-color: var(--text-and-elements) !important;
+  color: var(--text-and-elements) !important;
+}
+
+.ant-btn-default {
+  background: var(--containers-and-accents) !important;
+  border: 1px solid var(--text-and-elements) !important;
+  color: var(--text-and-elements) !important;
+}
+
+.ant-btn-default:hover {
+  background: var(--text-and-elements) !important;
+  border-color: var(--text-and-elements) !important;
+  color: var(--app-background) !important;
+}
+
+/* Input Overrides */
+.ant-input,
+.ant-input-affix-wrapper {
+  background: var(--containers-and-accents) !important;
+  border: 1px solid var(--text-and-elements) !important;
+  color: var(--text-and-elements) !important;
+  border-radius: 6px !important;
+}
+
+.ant-input:focus,
+.ant-input-affix-wrapper:focus,
+.ant-input-focused,
+.ant-input-affix-wrapper-focused {
+  border-color: var(--text-and-elements) !important;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2) !important;
+}
+
+.ant-input::placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+/* Select Overrides */
+.ant-select {
+  color: var(--text-and-elements) !important;
+}
+
+.ant-select-selector {
+  background: var(--containers-and-accents) !important;
+  border: 1px solid var(--text-and-elements) !important;
+  color: var(--text-and-elements) !important;
+}
+
+.ant-select-dropdown {
+  background: var(--containers-and-accents) !important;
+  border: 1px solid var(--text-and-elements) !important;
+}
+
+.ant-select-item {
+  color: var(--text-and-elements) !important;
+}
+
+.ant-select-item:hover {
+  background: var(--app-background) !important;
+}
+
+.ant-select-item-option-selected {
+  background: var(--text-and-elements) !important;
+  color: var(--app-background) !important;
+}
+
+/* Spin Overrides */
+.ant-spin-dot-item {
+  background-color: var(--text-and-elements) !important;
+}
+
+/* Message Overrides */
+.ant-message {
+  color: var(--text-and-elements) !important;
+}
+
+.ant-message-notice-content {
+  background: var(--containers-and-accents) !important;
+  border: 1px solid var(--text-and-elements) !important;
+  border-radius: 6px !important;
+}
+
+/* Tooltip Overrides */
+.ant-tooltip-inner {
+  background: var(--containers-and-accents) !important;
+  color: var(--text-and-elements) !important;
+  border: 1px solid var(--text-and-elements) !important;
+}
+
+.ant-tooltip-arrow-content {
+  background: var(--containers-and-accents) !important;
+  border: 1px solid var(--text-and-elements) !important;
+}
+
+/* Statistic Overrides */
+.ant-statistic-title {
+  color: var(--text-and-elements) !important;
+}
+
+.ant-statistic-content {
+  color: var(--text-and-elements) !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .ant-card {
+    margin: 8px !important;
+  }
+  
+  .ant-card-body {
+    padding: 16px !important;
+  }
+}

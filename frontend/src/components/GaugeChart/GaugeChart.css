@@ -1,0 +1,45 @@
+/* GaugeChart Component Styles - 3 Color Theme */
+
+.gauge-chart-container {
+  height: 200px;
+}
+
+.gauge-chart-loading {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gauge-chart-error {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-and-elements);
+}
+
+.gauge-chart-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.gauge-chart-icon {
+  font-size: 20px;
+  color: var(--text-and-elements);
+}
+
+/* Chart specific color overrides */
+.gauge-chart .ant-card {
+  background: var(--containers-and-accents) !important;
+  border: 1px solid var(--containers-and-accents) !important;
+}
+
+.gauge-chart .ant-card-head-title {
+  color: var(--text-and-elements) !important;
+}
+
+.gauge-chart .ant-card-body {
+  color: var(--text-and-elements) !important;
+}
